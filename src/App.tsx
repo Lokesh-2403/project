@@ -28,9 +28,9 @@ function App() {
                 alt="Lokesh Babu"
                 className="w-40 h-40 rounded-full border-2 border-cyan-400/50 object-cover mb-6"
               />
-              <div className="px-4 py-1 border border-cyan-400/30 rounded-full text-cyan-400 text-sm">
+              {/* <div className="px-4 py-1 border border-cyan-400/30 rounded-full text-cyan-400 text-sm">
                 Available for Entry-Level Opportunities
-              </div>
+              </div> */}
             </div>
             <div className="flex-1 text-center md:text-left">
               <h1 className="text-5xl md:text-6xl font-bold mb-4">
@@ -61,7 +61,7 @@ function App() {
               I am actively building hands-on projects and practicing in labs to strengthen my real-world security skills.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              My goal is to start my career as a <span className="text-cyan-400 font-semibold">Junior Cybersecurity Analyst</span>.
+              My goal is to start my career as a <span className="text-cyan-400 font-semibold">SOC Analyst</span>.
             </p>
           </div>
         </section>
@@ -73,9 +73,9 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             <SkillCard title="Networking Basics" description="TCP/IP, DNS, HTTP" />
             <SkillCard title="Linux Basics" description="Command line, file systems, permissions" />
-            <SkillCard title="Python Basics for Security" description="Scripting and automation fundamentals" />
+            {/* <SkillCard title="Python Basics for Security" description="Scripting and automation fundamentals" /> */}
             <SkillCard title="Cybersecurity Fundamentals" description="Security principles and best practices" />
-            <SkillCard title="Threat Awareness" description="Security concepts and risk understanding" />
+            {/* <SkillCard title="Threat Awareness" description="Security concepts and risk understanding" /> */}
             <SkillCard
               title="Currently Learning"
               description="SOC Operations, SIEM Basics"
@@ -90,9 +90,15 @@ function App() {
           </h2>
           <div className="space-y-6">
             <ProjectCard
+              title="End Point Security Analysis"
+              description="Analyzing and securing a Windows endpoint using basic tools and techniques."
+              status="In Progress"
+              icon={<Terminal className="w-6 h-6" />}
+            />
+            <ProjectCard
               title="Network Scanning using Nmap"
               description="Performing network reconnaissance and basic vulnerability identification using Nmap."
-              status="In Progress"
+              status="Planned"
               icon={<Terminal className="w-6 h-6" />}
             />
             <ProjectCard
@@ -124,17 +130,17 @@ function App() {
                 name="Hack The Box Academy"
                 description="Structured learning modules"
               />
-              <LabItem
+              {/* <LabItem
                 name="OverTheWire Linux Wargames"
                 description="Command line and Linux fundamentals"
-              />
+              /> */}
             </div>
           </div>
         </section>
 
         <section id="contact" className="max-w-6xl mx-auto px-6 py-16">
           <h2 className="text-3xl font-bold mb-8">
-            Contact
+            Get In Touch
           </h2>
           <div className="bg-gray-900 border border-gray-800 rounded-lg p-8 text-center">
             <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
